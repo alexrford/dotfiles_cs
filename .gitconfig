@@ -1,0 +1,6 @@
+[user]
+	name = Alex Ford
+	email = alexrford@github.com
+[alias]
+	recent = for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+	pushf = push --force-with-lease
