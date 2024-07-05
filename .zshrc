@@ -3,7 +3,7 @@
 autoload -Uz compinit promptinit
 compinit
 promptinit
-source $HOME/git_prompt.zsh
+source $HOME/.git_prompt.zsh
 PROMPT='%B%~%b %# '
 
 # Use emacs keybindings even if our EDITOR is set to vi
